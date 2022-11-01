@@ -1,0 +1,12 @@
+.div-home {
+    padding: 60px;
+}
+
+.btn-home {
+    background-color: #bb5c788f;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
