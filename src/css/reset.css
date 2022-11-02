@@ -24,6 +24,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #F2F2F2;
 	line-height: 1;
 }
 ol, ul {

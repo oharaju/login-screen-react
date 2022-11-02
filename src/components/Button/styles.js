@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-  background-color: pink;
-  padding: 5px;
+  background-color: #ea5d5d;
+  color: #ffff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 16px 10px;
   border-radius: 3px;
-`;
+  cursor: pointer;
 
-export const Outline = styled.button`
-  background-color: blue;
-  padding: 5px;
-  border-radius: 3px;
+  &:hover {
+    background-color: #f54544;
+  }
 `;

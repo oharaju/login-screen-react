@@ -1,14 +1,12 @@
 import './css/reset.css';
 import Button from './components/Button';
-import Header from './components/Header';
+import Login from './components/Login';
 
 function Home() {
   return (
-    <div>
-      <Button>Clique Aqui!</Button>
-      <Button.Outline>olá</Button.Outline>
-      <Header>aa</Header>
-    </div>
+    <section>
+      <Login></Login>
+    </section>
   );
 }
 

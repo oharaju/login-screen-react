@@ -1,5 +1,3 @@
-import { Button, Outline } from './styles';
-
-Button.Outline = Outline;
+import { Button } from './styles';
 
 export default Button;
