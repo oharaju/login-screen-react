@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Container } from './styles';
+import { Title, Container, DivImg, ImgLogin } from './styles';
 import {
   Div,
   Input,
@@ -8,10 +8,13 @@ import {
   DivRememberPassword,
 } from '../Input';
 import Button from '../Button';
-import screen from '../../images/screen.png';
 
 const Login = () => (
   <Container>
+    <div>
+      <ImgLogin />
+    </div>
+
     <Title>Hello! Friend!</Title>
     <Div>
       <Label>Username *</Label>
