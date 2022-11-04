@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Container, DivImg, ImgLogin } from './styles';
+import { Title, Container } from './styles';
 import {
   Div,
   Input,
@@ -11,10 +11,6 @@ import Button from '../Button';
 
 const Login = () => (
   <Container>
-    <div>
-      <ImgLogin />
-    </div>
-
     <Title>Hello! Friend!</Title>
     <Div>
       <Label>Username *</Label>
